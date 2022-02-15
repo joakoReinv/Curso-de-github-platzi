@@ -1,6 +1,65 @@
-body
-{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: blueviolet;
+*/{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+body{
+    display: flex;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_presentacion{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+main p{
+        font-size: 1,6rem;
+        color: darkgrey;
+ }
+
+.main_section_las_post{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_article_last_post{
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+article picture{
+    width: 250px;
+    height: 200px;
+}
+h1{
+    font-size: 3rem;
+    color: blue;
 }
